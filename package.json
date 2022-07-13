@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Quick .gitignore file for your fe project",
   "main": "src/index.js",
-  "bin": "src/index.js",
+  "bin": {
+    "gitignore": "src/index.js"
+  },
   "type": "module",
   "scripts": {
     "start": "node src/index.js"
@@ -17,7 +19,6 @@
   "dependencies": {
     "inquirer": "^9.0.0"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/retech-fe/gitignore.git"
