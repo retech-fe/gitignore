@@ -1,3 +1,4 @@
+const gitignoreContent = `
 # Logs
 logs
 *.log
@@ -156,3 +157,6 @@ template/src/__tests__/__snapshots__/
 
 # self app
 my-app*
+`;
+
+export default gitignoreContent;

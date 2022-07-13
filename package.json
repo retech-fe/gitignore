@@ -1,0 +1,29 @@
+{
+  "name": "@retech/gitignore",
+  "version": "1.0.0",
+  "description": "Quick .gitignore file for your fe project",
+  "main": "src/index.js",
+  "bin": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "gitignore",
+    "quick-gitignore"
+  ],
+  "author": "zuopengfei",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/retech-fe/gitignore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/retech-fe/gitignore/issues"
+  },
+  "homepage": "https://github.com/retech-fe/gitignore#readme"
+}
