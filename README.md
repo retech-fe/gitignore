@@ -1,2 +1,3 @@
 # gitignore
-gitignore for fontend project
+
+gitignore file for fontend project based nodejs vscode vue react
